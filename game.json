@@ -1,0 +1,168 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "name": "Ammo x10",
+            "type": [
+                "treasure"
+            ],
+            "costBuy": 0,
+            "costPlay": 0,
+            "effects": [
+                "addResourceA(10)",
+                "addResourceB(10)"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ammo x20",
+            "type": [
+                "treasure"
+            ],
+            "costBuy": 30,
+            "costPlay": 0,
+            "effects": [
+                "addResourceA(20)",
+                "addResourceB(20)"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Ammo x30",
+            "type": [
+                "treasure"
+            ],
+            "costBuy": 60,
+            "costPlay": 0,
+            "effects": [
+                "addResourceA(30)",
+                "addResourceB(30)"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Handgun",
+            "type": [
+                "weapon",
+                "handgun"
+            ],
+            "costBuy": 10,
+            "costPlay": 10,
+            "effects": [
+                "addResourceC(10)"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Knife",
+            "type": [
+                "weapon",
+                "knife"
+            ],
+            "costBuy": 0,
+            "costPlay": 0,
+            "effects": [
+                "addResourceC(5)"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Reload",
+            "type": [
+                "action"
+            ],
+            "costBuy": 50,
+            "costPlay": 0,
+            "effects": [
+                "addAction(1)",
+                "addResourceB(20)"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Big Spender",
+            "type": [
+                "action"
+            ],
+            "costBuy": 60,
+            "costPlay": 0,
+            "effects": [
+                "addBuys(1)",
+                "addResourceA(30)"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Shotgun",
+            "type": [
+                "weapon",
+                "shotgun"
+            ],
+            "costBuy": 40,
+            "costPlay": 20,
+            "effects": [
+                "addResourceC(25)"
+            ]
+        }
+    ],
+    "startingDeck": [
+        {
+            "cardId": 1,
+            "qty": 7
+        },
+        {
+            "cardId": 5,
+            "qty": 2
+        },
+        {
+            "cardId": 4,
+            "qty": 1
+        }
+    ],
+    "piles": [
+        [
+            {
+                "cardId": 1,
+                "qty": 10
+            }
+        ],
+        [
+            {
+                "cardId": 2,
+                "qty": 10
+            }
+        ],
+        [
+            {
+                "cardId": 3,
+                "qty": 10
+            }
+        ],
+        [
+            {
+                "cardId": 4,
+                "qty": 4
+            },
+            {
+                "cardId": 5,
+                "qty": 6
+            }
+        ],
+        [
+            {
+                "cardId": 6,
+                "qty": 5
+            },
+            {
+                "cardId": 7,
+                "qty": 5
+            }
+        ],
+        [
+            {
+                "cardId": 8,
+                "qty": 10
+            }
+        ]
+    ]
+}
